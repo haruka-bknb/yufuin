@@ -1,0 +1,382 @@
+/*全体*/
+body{
+  padding:30px 100px;
+}
+
+
+/*ヘッダー*/
+
+header{
+  background-color: #7fd9d2;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  float:left;
+  width: 100%;
+}
+
+
+.header-logo
+{
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+  padding: 18px 40px;
+}
+
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 24px 10px;
+  margin-top: 5px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+
+/*メイン*/
+
+.top-wrapper {
+  background-image: url(photo/湯の坪街道.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+  color: whitesmoke;
+  padding: 180px 0 100px 0;
+  margin: 0;
+}
+
+.top-wrapper h1{
+  font-size: 80px;
+  opacity: 0.9;
+  letter-spacing: 2px;
+  padding-top:150px;
+}
+
+.top-wrapper p{
+  font-size:16px;
+  font-weight: bold;
+  opacity: 0.95;
+  padding-top: 50px;
+}
+
+
+/*観光スポット*/
+.spot-list{
+  background-color: rgba(127, 217, 210, 0.1);
+  
+}
+.spot-list h1{
+  text-align: center;
+}
+
+.spot h1{
+  color:green;
+}
+/*金鱗湖*/
+
+.spot1 h1{
+  font-size: 30px;
+}
+.spot1 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.kinrinko-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.kinrinko-list p{
+  line-height: 5px;
+}
+
+ .spot1 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+
+/*狭霧台*/
+
+.spot2 h1{
+  font-size: 30px;
+}
+
+.spot2 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.sagiridai-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.sagiridai-list p{
+  line-height: 5px;
+}
+
+ .spot2 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+
+/*湯布院フローラルヴィレッジ*/
+
+.spot3 h1{
+  font-size: 30px;
+}
+
+.spot3 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.furo-raru-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.furo-raru-list p{
+  line-height: 5px;
+}
+
+ .spot3 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+/*お食事*/
+.food-list{
+  background-color: rgba(163, 219, 32, 0.1);
+  
+}
+.food-list h1{
+  text-align: center;
+}
+
+.food h1{
+  color:green;
+}
+
+/*田舎庵*/
+.food1 h1{
+  font-size: 30px;
+}
+
+.food1 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.inakaan-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.inakaan-list p{
+  line-height: 5px;
+}
+
+ .food1 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+/*はなの舞*/
+.food2 h1{
+  font-size: 30px;
+}
+
+.food2 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.hananomai-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.hananomai-list p{
+  line-height: 5px;
+}
+
+ .food2 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+
+/*ベルベンヌ*/
+.food3 h1{
+  font-size: 30px;
+}
+
+.food3 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.furenchi-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.furenchi-list p{
+  line-height: 5px;
+}
+
+ .food3 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+/*カフェ*/
+.cafe-list{
+  background-color: rgba(127, 217, 210, 0.1);
+  
+}
+.cafe-list h1{
+  text-align: center;
+}
+
+.cafe h1{
+  color:green;
+}
+
+/*玉の湯*/
+
+.cafe1 h1{
+  font-size: 30px;
+}
+
+.cafe1 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.tamanoyu-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.tamanoyu-list p{
+  line-height: 5px;
+}
+
+ .cafe1 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+/*亀の井*/
+
+.cafe2 h1{
+  font-size: 30px;
+}
+
+.cafe2 p{
+  font-size:15px;
+  font-weight:normal;
+}
+
+.kamenoi-list li{
+  font-size:20px;
+  font-weight: bold;
+  margin:0;
+}
+
+.kamenoi-list p{
+  line-height: 5px;
+}
+
+ .cafe2 img{
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
+
+
+/*メッセージ*/
+.message-wrapper{
+  background-image: url(photo/メッセージ.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  
+}
+
+.hedding h2{
+  color:whitesmoke;
+  padding-top: 150px;
+}
+
+/*問い合わせ*/
+.contact-form{
+  background-color:  rgba(163, 219, 32, 0.1);
+  text-align: center;
+  
+}
+
+.contact-form h3{
+  font-size: 30px;
+}
+input,textarea{
+  width: 400px;
+  margin:10px 0 30px 0;
+  padding:20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: #5dca88;
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 10px;
+
+}
+
+.contact-submit:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+
+/*フッター*/
+footer{
+  background-color: rgba(127, 217, 210, 0.1) ;
+  height:50px;
+  color:grey;
+  text-align: center;
+  padding: 10px 0;
+}
